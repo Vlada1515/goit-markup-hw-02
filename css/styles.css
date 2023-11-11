@@ -73,7 +73,7 @@ letter-spacing: 0.02em;
 /* MAIN */
 /* SECTION 1 */
 
-.main-section{
+.first-section{
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -102,6 +102,9 @@ background: var(--OCEAN, #404BBF);
 
 /* SECTION 2 */
 /* below goes to all sections 2-3-4 */
+.second-section{
+    line-height: 1.12px;
+}
 .section-title{
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
@@ -127,14 +130,17 @@ letter-spacing: 0.02em;
 }
 
 /* SECTION 3 */
+
 .third-section{
     background: var(--CLOUD, #F4F4FD);
+    line-height: 1.11px;
 }
 
 .third-section-list {
 
 background: var(--WHITE, #FFF);
 }
+
 
 /* =================================== */
 /* FOOTER */
@@ -170,3 +176,5 @@ font-weight: 400;
 line-height: 1.17px; /* 116.667% */
 letter-spacing: 0.02em;
 }
+
+
